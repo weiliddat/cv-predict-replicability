@@ -1,0 +1,39 @@
+Name,Variable full label,Variable description,Valid range,Scoring,Value indicating missing data,Value indicating inapplicable data,Experiment file used
+ID,Participant ID,Participant's study number/identifier,LS1 - LS122,n/a,0,NA,n/a
+netID,UVA netID,Student's UVA netID identifier,n/a,n/a,0,NA,n/a
+Date,Date of participation,Date of the experiment session,00/00/00,n/a,0,NA,n/a
+Condition,Condition assigned,Participant's assigned study condition (block design),Using OR Examining,n/a,0,NA,n/a
+DS,Double scored,Data entry was double-scored,0-1,"1 = double scored, 0 = not double scored",0,NA,n/a
+IC,Informed consent,Informed consent was administered to participant,0-1,"1 = IC was administered, 0 = IC was not administered",0,NA,n/a
+FD,Funneled debriefing,Participant was provided a funelled debriefing ,0-1,"1 = FD was administered, 0 = FD was not administered",0,NA,"""Lee & Schwarz (2010) - Debriefing form.pdf"""
+Comp.,Compensation,Compensation (0.5 SONA credit) awarded,0-1,"1 = compensation (0.5 SONA credit & Amazon album) was delivered, 0 = compensation was not delivered",0,NA,n/a
+Album.sent,Gifted album sent date,Date participant's selected album was emailed via downloadable Amazon MP3 file,00/00/00,n/a,0,NA,n/a
+AC,Album choice,Participant's selected album ,Album title,The album the participant selected when presented with a choice between the 5th and 6th ranked albums from their initial ranking form,0,NA,n/a 
+ACIR,Album choice initial ranking,Rank participant gave to their selected album on the initial ranking form,5th OR 6th,n/a,0,NA,"""Lee & Schwarz (2010) - Initial album ranking.pdf"""
+ACSR,Album choice secondary ranking,Rank participant gave to their selected album on the secondary ranking form,10-Jan,n/a,0,NA,"""Lee & Schwarz (2010) - Secondary album ranking.pdf"""
+N/O,Number owned,Number of albums owned out of the 30 listed albums,30-Jan,Total determined by the number of albums crossed out on the album selection form,0,NA,"""Lee & Schwarz (2010) - Album selection.pdf"""
+IR.1,Initial ranking #1,Album ranked 1st in initial ranking,Album title,n/a,0,NA,"""Lee & Schwarz (2010) - Initial album ranking.pdf"""
+IR.2,Initial ranking #2,Album ranked 2nd in initial ranking,Album title,n/a,0,NA,"""Lee & Schwarz (2010) - Initial album ranking.pdf"""
+IR.3,Initial ranking #3,Album ranked 3rd in initial ranking,Album title,n/a,0,NA,"""Lee & Schwarz (2010) - Initial album ranking.pdf"""
+IR.4,Initial ranking #4,Album ranked 4th in initial ranking,Album title,n/a,0,NA,"""Lee & Schwarz (2010) - Initial album ranking.pdf"""
+IR.5,Initial ranking #5,Album ranked 5th in initial ranking,Album title,n/a,0,NA,"""Lee & Schwarz (2010) - Initial album ranking.pdf"""
+IR.6,Initial ranking #6,Album ranked 6th in initial ranking,Album title,n/a,0,NA,"""Lee & Schwarz (2010) - Initial album ranking.pdf"""
+IR.7,Initial ranking #7,Album ranked 7th in initial ranking,Album title,n/a,0,NA,"""Lee & Schwarz (2010) - Initial album ranking.pdf"""
+IR.8,Initial ranking #8,Album ranked 8th in initial ranking,Album title,n/a,0,NA,"""Lee & Schwarz (2010) - Initial album ranking.pdf"""
+IR.9,Initial ranking #9,Album ranked 9th in initial ranking,Album title,n/a,0,NA,"""Lee & Schwarz (2010) - Initial album ranking.pdf"""
+IR.10,Initial ranking #10,Album ranked 10th in initial ranking,Album title,n/a,0,NA,"""Lee & Schwarz (2010) - Initial album ranking.pdf"""
+SR.1,Secondary ranking #1,Album ranked 1st in secondary ranking,Album title,n/a,0,NA,"""Lee & Schwarz (2010) - Secondary album ranking.pdf"""
+SR.2,Secondary ranking #2,Album ranked 2nd in secondary ranking,Album title,n/a,0,NA,"""Lee & Schwarz (2010) - Secondary album ranking.pdf"""
+SR.3,Secondary ranking #3,Album ranked 3rd in secondary ranking,Album title,n/a,0,NA,"""Lee & Schwarz (2010) - Secondary album ranking.pdf"""
+SR.4,Secondary ranking #4,Album ranked 4th in secondary ranking,Album title,n/a,0,NA,"""Lee & Schwarz (2010) - Secondary album ranking.pdf"""
+SR.5,Secondary ranking #5,Album ranked 5th in secondary ranking,Album title,n/a,0,NA,"""Lee & Schwarz (2010) - Secondary album ranking.pdf"""
+SR.6,Secondary ranking #6,Album ranked 6th in secondary ranking,Album title,n/a,0,NA,"""Lee & Schwarz (2010) - Secondary album ranking.pdf"""
+SR.7,Secondary ranking #7,Album ranked 7th in secondary ranking,Album title,n/a,0,NA,"""Lee & Schwarz (2010) - Secondary album ranking.pdf"""
+SR.8,Secondary ranking #8,Album ranked 8th in secondary ranking,Album title,n/a,0,NA,"""Lee & Schwarz (2010) - Secondary album ranking.pdf"""
+SR.9,Secondary ranking #9,Album ranked 9th in secondary ranking,Album title,n/a,0,NA,"""Lee & Schwarz (2010) - Secondary album ranking.pdf"""
+SR.10,Secondary ranking #10,Album ranked 10th in secondary ranking,Album title,n/a,0,NA,"""Lee & Schwarz (2010) - Secondary album ranking.pdf"""
+Exc.,Exclusions,Exclusions for experiment session,0-1,"1 = exclusion, 0 = no exclusion",0,NA,n/a
+ConditionFactor,"Examining = 0, Using = 1",,,,,,
+BeforeDV,DV Before the treatment,Before the treatment: The difference between the Rank of Chosen and Rank of Rejected (Rank of Chosen - Rank of Rejected),,,,,
+AfterDV,DV After the treatment,After the treatment: The difference between the Rank of Chosen and Rank of Rejected (Rank of Chosen - Rank of Rejected),,,,,
+Difference,Difference between ranks before and after,BeforeDV - AfterDV,,,,,

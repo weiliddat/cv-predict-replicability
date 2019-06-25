@@ -1,0 +1,40 @@
+condition,subjectID,scale_enjoyable,scale_entertain,scale_boring,scale_boring_reverse,gender,male,age,psych.major
+External activities,1,9,9,1,9,Female,0,18,Psych
+External activities,2,7,7,2,8,Female,0,21,Psych
+External activities,3,5,6,3,7,Female,0,22,Psych
+External activities,4,9,9,1,9,Male,1,20,Psych
+External activities,5,6,6,3,7,Male,1,21,Non psych
+External activities,6,6,7,4,6,Female,0,21,Psych
+External activities,7,7,7,5,5,Female,0,20,Non psych
+External activities,8,5,6,3,7,Male,1,20,Non psych
+External activities,9,7,7,6,4,Female,0,20,Psych
+External activities,10,9,9,1,9,Female,0,21,Psych
+External activities,11,8,8,1,9,Male,1,21,Psych
+External activities,12,9,9,1,9,Female,0,20,Psych
+External activities,13,5,8,2,8,Female,0,21,Psych
+External activities,14,9,9,1,9,Female,0,21,Psych
+External activities,15,5,4,5,5,Male,1,21,Psych
+External activities,16,9,9,1,9,Female,0,21,Psych
+External activities,17,9,9,1,9,Female,0,19,Psych
+External activities,18,7,7,1,9,Female,0,19,Psych
+External activities,19,7,7,2,8,Female,0,20,Psych
+External activities,20,7,7,1,9,Female,0,20,Psych
+Standard thought instructions,1,9,9,1,9,Female,0,20,Psych
+Standard thought instructions,2,7,7,3,7,Female,0,21,Non psych
+Standard thought instructions,3,2,2,8,2,Female,0,22,Psych
+Standard thought instructions,4,3,1,7,3,Female,0,19,Psych
+Standard thought instructions,5,9,9,1,9,Female,0,20,Psych
+Standard thought instructions,6,9,7,4,6,Female,0,21,Non psych
+Standard thought instructions,7,8,3,7,3,Female,0,21,Psych
+Standard thought instructions,8,6,4,4,6,Female,0,18,Psych
+Standard thought instructions,9,7,6,5,5,Male,1,21,Psych
+Standard thought instructions,10,4,3,7,3,Female,0,18,Non psych
+Standard thought instructions,11,3,3,8,2,Female,0,19,Non psych
+Standard thought instructions,12,4,5,5,5,Female,0,21,Psych
+Standard thought instructions,13,4,4,5,5,Male,1,26,Non psych
+Standard thought instructions,14,5,5,5,5,Male,1,20,Psych
+Standard thought instructions,15,7,6,5,5,Male,1,21,Psych
+Standard thought instructions,16,5,3,1,9,Male,1,21,Non psych
+Standard thought instructions,17,2,2,9,1,Female,0,18,Non psych
+Standard thought instructions,18,2,2,8,2,Female,0,20,Psych
+Standard thought instructions,19,5,4,6,4,Female,0,19,Psych

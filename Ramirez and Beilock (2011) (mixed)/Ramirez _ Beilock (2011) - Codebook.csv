@@ -1,0 +1,12 @@
+Name,Variable full label,Variable description,Valid range,Scoring,Value indicating missing data,Value indicating inapplicable data,Experiment file used
+ID,Participant ID,Participant's study number/identifier,LS1 - LS122,n/a,0,NA,n/a
+netID,UVA netID,Student's UVA netID identifier,n/a,n/a,0,NA,n/a
+Date,Date of participation,Date of the experiment session,00/00/00,n/a,0,NA,n/a
+PC,Pressure condition,Participant's assigned pressure condition indicated,High OR Low,"Random.org was used to generate 1-4 to each participant. 1 = control/low, 2 = writing/low, 3 = control/high, 4 = writing/high",0,NA,"""Ranirez & Beilock (2011) - High pressure scenario protocol.pdf"" OR ""Ramirez & Beilock (2011) - Low pressure scenario protocol.pdf"""
+WC,Writing condition,Participant's assigned writing condition indicated,Writing OR Control,"Random.org was used to generate 1-4 to each participant. 1 = control/low, 2 = writing/low, 3 = control/high, 4 = writing/high",0,NA,"""Ramirez & Beilock (2011) - Writing condition prompt.pdf"" (if writing condition)"
+IC,Informed consent,Informed consent was administered to participant,0-1,n/a,0,NA,"""Ramirez & Beilock (2011) - Informed consent (credit).pdf"""
+FC,Film consent,"Participants signed consent for filming prior to high pressure condition (per protocol, participants were not actually filmed during the high pressure scenario)",0-1,n/a,0,NA,"""Ramirez & Beilock (2011) - Film consent.doc"""
+Credit,UVA course credit,0.5 SONA credit provided as compensation for all participants in all conditions,0-1,"1 = credit granted, 0 = credit was not granted",999,NA,n/a
+Cash,Cash compensation,$10 cash provided as compensation for high pressure condition participants only,0-1,"1 = high pressure receipt filed, 0 = high pressure receipt not filed, 999 = high pressure payment processing",999,NA,"""Ramirez & Beilock (2011) - Cash compensation receipt.doc"""
+ET,Essay text,Transcribed text from the written essay portion (writing condition only),n/a,All essay texts directly transcribed into column K of R&B excel,0,NA,"""Ramirez & Beilock (2011) - Writing condition prompt.pdf"""
+Exc.,Exclusion,Exclusions for experiment session,0-1,"1 = exclusion, 0 = no exclusion",999,NA,n/a

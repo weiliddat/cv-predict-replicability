@@ -1,0 +1,4 @@
+Exclusion Part 1,Exclusion Part 2,Participant ,Date,Reasoning,Condition,IC.1,IC.2,Comp.1,Comp.2,PR.1,PR.2,MCS.1,Scorer.1,MCS.2,Scorer.2,MCS.avg,R1CS.1,Scorer.1,R1CS.2,Scorer.2,R1CS.avg,R2CS.1,Scorer.1,R2CS.2,Scorer.2,R2CS.avg,TS.1,Scorer.1,TS.2,Scorer.2,TS.avg,Collection
+0,1,KB17,11/22/16,No-show part 2,Retrieval,1,0,1,0,NA,0.6,NA,NA,NA,NA,NA,0.633,TT,0.65,LH,0.642,0.833,TT,0.8,LH,0.82,0,0,0,0,0,1
+0,1,KB36,1/24/17,No-show part 2,Concept,1,0,1,0,1,0.7,0.967,TT,0.967,NK,0.967,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,0,1
+0,1,KB49,1/26/17,No-show part 2,Retrieval,1,0,1,0,NA,0.2,NA,NA,NA,NA,NA,0.33,NK,0.3,LH,0.315,0.6,NK,0.6,LH,0.6,0,0,0,0,0,2
