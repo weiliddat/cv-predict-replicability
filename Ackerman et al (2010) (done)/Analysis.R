@@ -40,10 +40,11 @@ cvControl <- trainControl(
 set.seed(1)
 
 fit1 <- train(DV ~ Condition, data = data, trControl = cvControl, method = "lm", na.action = na.omit)
+fit1 <- train(DV ~ Condition, data = data[which(data$Exc_resolved == 0),] , trControl = cvControl, method = "lm", na.action = na.omit) #To account for the extra filter in lines 10 & 19.
 
 print(fit1)
 summary(fit1)
-
+#(are the lines of code below necessary?)
 looControl <- trainControl(
   method = "LOOCV"
 )
