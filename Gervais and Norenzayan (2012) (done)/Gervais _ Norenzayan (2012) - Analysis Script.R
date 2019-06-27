@@ -100,7 +100,7 @@ cvControl <- trainControl(
 
 set.seed(1)
 
-fit1 <- train(DV_1 ~ Condition, data = gn, trControl = cvControl, method = "lm", na.action = na.omit)
+fit1 <- train(DV_1 ~ Condition, data = gn.ex, trControl = cvControl, method = "lm", na.action = na.omit) #updated by Arianne (data should = gn.ex, not gn)
 
 print(fit1)
 summary(fit1)
