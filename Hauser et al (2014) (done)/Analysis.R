@@ -7,7 +7,7 @@ data <- read_dta("Hauser et al (2014) - Data (All Generations).dta")
 # Note: R doesn't have a robust option for lm
 
 # 1.
-data %>% 
+data %>% #Arianne comment: #1 yields the output values reported in final SSRP data (i.e. t(20)=6.7082, p=1.58E-06).
   filter(.$Condition == 1 | .$Condition == 2) %>% 
   filter(.$Generation == 1) %>%
   filter(!is.na(sustained)) %>% 
@@ -38,7 +38,7 @@ control <- trainControl(method = "repeatedcv", number = 10, repeats = 5)
 model <- data %>% 
   filter(.$Condition == 1 | .$Condition == 2) %>% 
   filter(.$Generation == 1) %>% 
-  filter(!is.na(sustained_noextra)) %>% 
+  filter(!is.na(sustained_noextra)) %>% #Arianne comment: Pretty certain that this should be "sustained" NOT "substained_noextra" (see line 10 above).
   train(sustained_noextra ~ Voting, data = ., trControl = control, method = "lm")
 
 model
