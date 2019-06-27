@@ -2,12 +2,12 @@ require(effsize)
 require(stats)
 require(doBy)
 options(digits=10)
-setwd("~/Dropbox/uva/Nosek lab/reproducibility help/2016/lee/data")
+setwd("~/Dropbox/uva/Nosek lab/reproducibility help/2016/lee/data") #Arianne comment: remove?
 
 
 #the data file includes the dvs that were manually calculated based on the before and after 
 #rankings.  
-data <- read.csv ("DVs-2-demographics-added.csv", header=TRUE)
+data <- read.csv ("DVs-2-demographics-added.csv", header=TRUE) #Arianne comment: we yield the correct results if replaced by "Lee & Schwarz (2010) - Replication Data.csv" file.
 #Excluding observations for round 1
 round1 <- subset(data, DataCollection == 1 & Exc == 0)
 #Excluding observations for full data
