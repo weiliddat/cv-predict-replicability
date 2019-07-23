@@ -21,12 +21,15 @@ data %>%
     gender != 1,
     period == 3
   ) %>%
-  group_by(treatment) %>% 
-  summarise(
-    choice = sum(choice)
+  group_by(treatment, choice) %>% 
+  count() %>% 
+  spread(choice, n) %>% 
+  rename(
+    tournament = `1`,
+    piecerate = `0`
   ) %>% 
-  spread(treatment, choice) %>% 
-  {binom.test(c(.$Control, .$Preferential))}
+  glm(cbind(piecerate, tournament) ~ treatment, data = ., family = "binomial") %>% 
+  summary()
 
 matrix(c(44, 76, 63, 60), nrow = 2, byrow = TRUE) %>% 
   chisq.test(correct = FALSE)
